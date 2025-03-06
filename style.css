@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #fddde6;
+    color: #88304e;
+    border-bottom: 2px solid #e4b6c4;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    max-width: 150px;
+}
+.header__content {
+}
+.greeting {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.greeting-image {
+    max-width: 250px;
+}
+.greeting-text h2{
+    font-size: 30px;
+    color: #88304e;
+    font-family: "Roboto", sans-serif;
+}
+.wishes {
+}
